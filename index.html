@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="menu-slider">
+      <img src="images/icon-close-menu.svg" alt="Icono de cerrar menu" class="btn-cerrar">
+      <ul class="lista">
+        <li class="features">Features <img src="images/icon-arrow-down.svg" alt="icono de flecha abajo"></li>
+        <li class="company">Company <img src="images/icon-arrow-down.svg" alt="icono de flecha abajo"></li>
+        <li class="careers">Careers</li>
+        <li>About</li>
+      </ul>
+      <div class="flex-col">
+          <button>Login</button>
+          <button class="register">Register</button>
+      </div>
+  </div>
+  <main class="contenedor">
+    
+    <nav class="flex">
+      <img src="images/logo.svg" alt="Imaagen de fondo">
+      <div class="flex-barra">
+        <ul class="barra">
+          <li class="features" id="features">Features <img src="images/icon-arrow-down.svg" alt="icono de flecha abajo"></li>
+          <li class="company" id="company">Company <img src="images/icon-arrow-down.svg" alt="icono de flecha abajo"></li>
+          <li class="careers">Careers</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div class="espacio-botones">
+        <button>Login</button>
+        <button class="register">Register</button>
+      </div>
+      <img src="images/icon-menu.svg" alt="Icono de menu" class="menu">
+    </nav><!--fin barra-->
+    <header>
+      <img src="images/image-hero-mobile.png" alt="Imagen de fondo">
+    </header>
+    <div class="contenido-header">
+      <div>
+        <h2>Make <span>remote work</span> </h2>
+        <p>Get your team in sync, no matter your <span>location. Streamline processes, create</span><span>team rituals, and watch productivity soar.</span></p>
+        <button class="btn-more">Learn more</button>
+        <div class="logos">
+          <img src="images/client-databiz.svg" alt="logo">
+          <img src="images/client-audiophile.svg" alt="logo">
+          <img src="images/client-meet.svg" alt="logo">
+          <img src="images/client-maker.svg" alt="logo">
+      </div>
+      </div>
+      <img src="images/image-hero-desktop.png" alt="imagen de persona" class="hero">
+    </div>
+    
+  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">David Adame Soto</a>.
+    </div>
+  </main>
+
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
